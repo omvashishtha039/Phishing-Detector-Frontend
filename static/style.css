@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+/* Header styling */
+header {
+    background: #1f1f1f; /* Darker header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #1e90ff; /* Bright blue for links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #1f1f1f; /* Darker main content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 4px;
+    background: #2a2a2a; /* Dark input background */
+    color: #e0e0e0; /* Light text color */
+}
+
+form button {
+    padding: 10px;
+    background: #558baa; /* Bright blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background: #7fb0db; /* Darker blue on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #1f1f1f; /* Dark footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional styles for scan results */
+.scan-result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 4px;
+    background-color: #2a2a2a; /* Darker background for results */
+}
