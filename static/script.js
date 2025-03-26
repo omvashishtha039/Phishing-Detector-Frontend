@@ -1,4 +1,4 @@
-const backendUrl = "http://127.0.0.1:5000"; // Replace with actual backend URL
+const backendUrl = "https://phishing-detector-backend.onrender.com"; // Replace with actual backend URL
 
 window.addEventListener("DOMContentLoaded", function () {
     // ✅ Handle Signup
